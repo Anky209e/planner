@@ -1,0 +1,6 @@
+flask
+crewai
+groq
+sqlalchemy
+langchain_community
+requests
