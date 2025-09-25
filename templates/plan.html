@@ -54,7 +54,7 @@
         <h1>Plan for: {{ plan.goal }}</h1>
         <div id="loading" style="display:none;text-align:center;margin:32px 0;">
             <div style="display:inline-block;width:60px;height:60px;border:6px solid #e0e7ff;border-top:6px solid #3b82f6;border-radius:50%;animation:spin 1s linear infinite;"></div>
-            <p style="color:#3b82f6;font-size:18px;margin-top:18px;">Loading your plan...</p>
+            <p style="color:#4287f6;font-size:18px;margin-top:18px;">Loading your plan...</p>
         </div>
         <style>@keyframes spin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}</style>
         {% if plan.plan and plan.plan.get('days') and plan.plan['days']|length > 0 %}
